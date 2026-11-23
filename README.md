@@ -8,6 +8,15 @@ The project combines financial data analysis, statistical analysis, machine lear
 
 The objective is not only to evaluate predictive accuracy, but also to determine whether predictive signals can translate into meaningful investment performance.
 
+## Project Highlights
+
+- Built an end-to-end quantitative investment research workflow for Amazon (AMZN).
+- Evaluated Logistic Regression and Random Forest classification models using accuracy and ROC-AUC.
+- Converted machine-learning predictions into a historical investment strategy and backtested it against Buy & Hold.
+- Achieved a ROC-AUC of **0.5501** for Logistic Regression and **0.4923** for Random Forest.
+- The ML strategy generated **11.32% total return**, compared with **28.72%** for Buy & Hold.
+- The ML strategy had lower annualized volatility (**20.86% vs. 32.85%**) and smaller maximum drawdown (**−19.24% vs. −30.88%**).
+- Results demonstrate the trade-off between predictive signals, investment returns, and risk.
 ---
 
 ## Research Question
